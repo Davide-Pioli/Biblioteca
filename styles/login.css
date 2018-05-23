@@ -1,0 +1,61 @@
+body{
+	background-color: #f2f2f2; 
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+}
+#titolo{
+	font-size: 50px;
+	color:rgb(76,104,120);
+	font-family: Yeseva One;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.login { 
+	width:505px;
+	margin:auto;
+
+	padding:30px;
+	background-color: #f2f2f2;
+	color:#FFF;
+	height:170px;
+}
+.field, .btn {
+	border:1px #525d65 solid;
+	padding:10px;
+}
+
+.field { 
+	background: white;
+	margin:5px 25px;
+	width:216px;
+	color:#FFF;
+}
+.login h1, .login p, .btn, .forgot { color: rgb(76,104,120); }
+
+.btn {
+	background-color: white;
+	font-weight:bold;
+	margin:10px 25px;
+	width:238px;
+}
+
+.lgn_left, .lgn_right { height: 100%; }
+
+.lgn_left {
+	width: 200px;
+	border-right:1px #525d65 solid;
+	float:left;
+	
+}
+
+.lgn_right {
+	width: 300px;
+	float:right;
+	text-align:center;
+}
