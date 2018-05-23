@@ -18,8 +18,10 @@
 		</form>
 
 	</div>
-	
+
 	<?php
+		session_start();
+		session_destroy();
 
 		if(isset($_POST['search']) AND $_POST['search']!=""){
 
@@ -49,7 +51,6 @@
 					  </ul>
 					</div>";
 			}
-
 		}
 	?>
 

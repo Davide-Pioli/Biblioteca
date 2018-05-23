@@ -34,7 +34,7 @@ h1{
 	background: white;
 	margin:5px 25px;
 	width:216px;
-	color:#FFF;
+	color:black;
 }
 .login h1, .login p, .btn, .forgot { color: rgb(76,104,120); }
 

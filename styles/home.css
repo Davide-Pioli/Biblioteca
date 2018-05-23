@@ -22,6 +22,7 @@ body h1{
   width: 100px;
   float: left;
 }
+
 input[type=text] {
 	width: 70%;
     box-sizing: border-box;
@@ -111,6 +112,7 @@ li {
 padding: 0px;
 overflow: auto;
 }
+
 div ul a{
 text-decoration: none;
 }
