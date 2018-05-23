@@ -1,0 +1,42 @@
+
+body{
+	background-color: #f2f2f2;
+}
+
+#titolo{
+
+		font-size: 50px;
+		color:rgb(76,104,120);
+		font-family: Yeseva One;
+
+}
+
+#testo{
+	color:rgb(76,104,120);
+	font-family: arial, sans-serif;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #525d65;
+
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#button {
+	background-color: white;
+	font-weight:bold;
+	margin:10px 25px;
+	width:100px;
+	border:1px #525d65 solid;
+	padding:10px;
+}
