@@ -4,11 +4,17 @@
 	<title>Davide Library</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeseva One">
 	<link rel="stylesheet" type="text/css" href="styles/home.css">
-
+	<style type="text/css">
+		#titolo {display:inline-block; margin-left: 300px} 
+		#button {display:inline-block; margin-left: 180px} 
+	</style>
 </head>
 <body>
 	<span>
-		<h1 class="center">Davide's Library</h1>
+
+		<h1 id = 'titolo' class="center">Davide's Library</h1>
+
+		<a href="login.php"> <button id='button' type='button'> Sign in </button></a>
 		<!-- <button  class="button">Button</button> -->
 	</span>
 	<div class="sticky">

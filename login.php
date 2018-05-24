@@ -9,11 +9,15 @@
 			font-size: 20px;
 			color: red;
 		}
+		a{
+			text-decoration: none;
+			color:rgb(76,104,120);
+		}
 	</style>
 </head>
 <body>
 
-	<h1 id="titolo" class="center">Davide's Library</h1>
+	<h1 id="titolo" class="center"> <a href="index.php"> Davide's Library </a></h1>
 	<div class="login">
 	<div class="lgn_left"><h1>login</h1><p>Inserisci il tuo username e la tua password</p>
 	</div>
